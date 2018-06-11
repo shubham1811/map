@@ -1,0 +1,39 @@
+1)import folium
+2)map=folium.Map([21.7679,78.8718])
+        Map is a class first is latitude second is longitude
+	map is object
+3)map
+4)map.save("map1.html")
+	create the map1.html that contain the map of the some country
+5)tiles="Maping Bright" comes with all the name written in the map with white
+	background
+6)fg=folium.FeatureGroup(name="My Map")
+	fg is the object so we can use the fg and we can do some manipulation
+	in the map
+7)fg.add_child(folium.Marker(location=[21.7679,78.8718], 
+	popup="hi I am Marker", icon=folium.Icon(color='red')))
+
+	this add the icon to the given map of color red
+8)map.add_child(fg)
+	to add add to the child
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
